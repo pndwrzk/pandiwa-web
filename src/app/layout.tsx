@@ -25,7 +25,7 @@ export default function RootLayout({
             <Sidebar />
           </div>
 
-          <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[67%] m-4   bg-[#1E1E1F]  rounded-lg">
+          <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[65%] m-4   bg-[#1E1E1F]  rounded-lg">
             <Navbar />
             <div className="p-5">{children}</div>
           </div>
