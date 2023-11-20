@@ -28,7 +28,7 @@ function Sidebar() {
         Developer
       </div>
       <hr className="w-[80%] my-8" />
-      <div className="flex  shadow-lg bg-[#282829] rounded-lg w-[70%] ">
+      <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full ">
         <div className="flex items-center text-center  text-white pl-6">
           <AiTwotoneMail className="text-[45px] m-auto mt-4" />
         </div>
@@ -38,7 +38,7 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="flex  shadow-lg bg-[#282829] rounded-lg w-[70%] mt-4">
+      <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full  mt-4">
         <div className="flex items-center text-center  text-white pl-6">
           <AiFillPhone className="text-[45px] m-auto mt-4" />
         </div>
@@ -48,7 +48,7 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="flex  shadow-lg bg-[#282829] rounded-lg w-[70%] mt-4">
+      <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full  mt-4">
         <div className="flex items-center text-center  text-white pl-6">
           <AiFillCalendar className="text-[45px] m-auto mt-4" />
         </div>
@@ -58,7 +58,7 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="flex flex-row  shadow-lg bg-[#282829] rounded-lg w-[70%] mt-4">
+      <div className="flex flex-row  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full  mt-4">
         <div className="flex items-center text-center text-white pl-6">
           <AiFillEnvironment className="text-[45px] text-center m-auto" />
         </div>
