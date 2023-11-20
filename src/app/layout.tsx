@@ -20,12 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-wrap h-screen w-full p-4  bg-[#111111]">
+        <div className="flex flex-wrap lg:h-screen h-full w-full  py-5  bg-[#111111]">
           <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[30%]  m-4 bg-[#1E1E1F]  rounded-lg">
             <Sidebar />
           </div>
 
-          <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[66%] m-4   bg-[#1E1E1F]  rounded-lg">
+          <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[67%] m-4   bg-[#1E1E1F]  rounded-lg">
             <Navbar />
             <div className="p-5">{children}</div>
           </div>
