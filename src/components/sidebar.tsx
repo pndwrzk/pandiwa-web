@@ -25,7 +25,7 @@ function Sidebar() {
       </div>
 
       <div className="bg-[#3A3A3B] rounded-lg shadow  text-center px-10 py-1 mt-4">
-        Developer
+        Software Engineer
       </div>
       <hr className="w-[80%] my-8" />
       <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full ">
