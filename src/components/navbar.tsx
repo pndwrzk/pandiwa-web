@@ -29,24 +29,28 @@ function Navbar() {
       >
         <Link
           href="/"
+          onClick={() => setIsOpen(false)}
           className="block md:inline-block  hover:font-bold  px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black hover:rounded-tl-lg  md:border-none"
         >
           Home
         </Link>
         <Link
           href="/about"
+          onClick={() => setIsOpen(false)}
           className="block md:inline-block  hover:font-bold px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black  md:border-none"
         >
           About
         </Link>
         <Link
-          href="#"
+          href="/portofolio"
+          onClick={() => setIsOpen(false)}
           className="block md:inline-block  hover:font-bold px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black  md:border-none"
         >
           Portofolio
         </Link>
         <Link
           href="/contact"
+          onClick={() => setIsOpen(false)}
           className="block md:inline-block  hover:font-bold px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black  md:border-none lg:hover:rounded-br-[30px]"
         >
           Contact
