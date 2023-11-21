@@ -4,13 +4,13 @@ import { FiMenu, FiXSquare } from "react-icons/fi";
 import Link from "next/link";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleNavbar = (val: boolean) => {
     setIsOpen(val);
   };
   return (
-    <div className="bg-[#1E1E1F]   shadow flex flex-col  items-center justify-between  lg:bg-[#282829]  rounded-tl-lg lg:rounded-br-[30px] w-full lg:w-[531px]">
+    <div className="bg-[#1E1E1F]  shadow flex flex-col  items-center justify-between  lg:bg-[#282829]  rounded-tl-lg lg:rounded-br-[30px] w-full lg:w-[531px]">
       <div className="flex md:hidden p-3 w-full bg-[#282829] rounded-t-lg">
         <button onClick={() => toggleNavbar(isOpen ? false : true)}>
           {isOpen ? (
