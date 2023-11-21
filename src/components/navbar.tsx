@@ -10,7 +10,7 @@ function Navbar() {
     setIsOpen(val);
   };
   return (
-    <div className="bg-[#1E1E1F]  rounded-lg shadow flex flex-col  items-center justify-between  lg:bg-[#282829]  rounded-tl-lg lg:rounded-br-[30px] w-full lg:w-[550px]">
+    <div className="bg-[#1E1E1F]   shadow flex flex-col  items-center justify-between  lg:bg-[#282829]  rounded-tl-lg lg:rounded-br-[30px] w-full lg:w-[531px]">
       <div className="flex md:hidden p-3 w-full bg-[#282829] rounded-t-lg">
         <button onClick={() => toggleNavbar(isOpen ? false : true)}>
           {isOpen ? (
@@ -29,7 +29,7 @@ function Navbar() {
       >
         <Link
           href="/"
-          className="block md:inline-block  hover:font-bold  px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black  md:border-none"
+          className="block md:inline-block  hover:font-bold  px-3 lg:px-10 py-3 lg:py-5 hover:bg-white hover:text-black hover:rounded-tl-lg  md:border-none"
         >
           Home
         </Link>

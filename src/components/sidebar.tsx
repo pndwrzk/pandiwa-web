@@ -28,7 +28,8 @@ function Sidebar() {
         Software Engineer
       </div>
       <hr className="w-[80%] my-8" />
-      <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full ">
+
+      <div className="flex  shadow-lg bg-[#282829] rounded-lg lg:w-[70%] w-full mt-4">
         <div className="flex items-center text-center  text-white pl-6">
           <AiTwotoneMail className="text-[45px] m-auto mt-4" />
         </div>
@@ -43,8 +44,8 @@ function Sidebar() {
           <AiFillPhone className="text-[45px] m-auto mt-4" />
         </div>
         <div className="flex-grow p-4">
-          <p className="font-bold text-[#C5C5C6]">Phone</p>
-          <p className="font-light text-white">+6285890026***</p>
+          <p className="font-bold text-[#C5C5C6]">Github</p>
+          <p className="font-light text-white">github.com/pndwrzk</p>
         </div>
       </div>
 

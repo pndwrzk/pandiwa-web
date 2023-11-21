@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/sidebar";
-import Link from "next/link";
 import Navbar from "@/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,6 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={inter.className}>
         <div className="flex flex-wrap lg:h-screen h-full w-full  py-2  bg-[#111111]">
           <div className="w-full sm:w-full md:w-full lg:w-full xl:w-[30%]  m-4 bg-[#1E1E1F]  rounded-lg">
