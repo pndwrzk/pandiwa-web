@@ -6,30 +6,29 @@ export default function Banner() {
     return (
         <div className="flex flex-col md:flex-row px-0 md:px-[150px] gap-3 md:gap-0">
             <div className="w-full text-center md:text-left px-4 md:px-0  ">
-                <div className="flex flex-row gap-1 bg-gradient-to-tr pl-8 md:pl-0">
-                    <h1 className="text-[40px] font-bold">Hi, I'am </h1>
+                <div className="flex flex-row gap-1 bg-gradient-to-tr justify-center md:justify-start">
+                    <h1 className="text-[40px] font-bold">Hi, I'm </h1>
                     <span className="w-max">
-                        <h1
-                            className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-[40px] text-orange-800 font-bold">
+                        <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-[40px] text-orange-700 font-bold">
                             Pandiwa.
                         </h1>
                     </span>
                 </div>
 
                 <p
-                    className="mt-1 text-base text-black dark:text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti doloremque impedit veniam magnam culpa est neque! Numquam minus error commodi, in soluta excepturi odio deleniti aliquam dicta animi debitis.
+                    className="animate-fade mt-1 text-base text-black dark:text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
+                    Software developer with over 3 years of experience in building scalable and efficient web applications. I focus on creating high-performance, maintainable solutions that deliver real value through clean and reliable code.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start mb-[5px] md:mb-0">
                     <div className="rounded-md shadow">
                         <a href="#"
-                            className="w-full flex items-center justify-center  shadow px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 dark:bg-gray-100  dark:hover:bg-gray-800    dark:text-gray-800 hover:bg-gray-900  hover:border-gray-800 md:py-4 md:text-lg md:px-10">
+                            className="w-full flex items-center justify-center  shadow px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-700      hover:bg-orange-600  hover:border-orange-600 md:py-4 md:text-lg md:px-10">
                             Contact Me
                         </a>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                         <a href="#"
-                            className="w-full flex items-center justify-center shadow px-8 py-3 border border-gray-800 text-base font-medium rounded-md text-gray-800  hover:bg-gray-700 hover:text-white dark:border-white dark:text-white  md:py-4 md:text-lg md:px-10">
+                            className="w-full flex items-center justify-center shadow px-8 py-3 border border-gray-800 text-base font-medium rounded-md text-gray-800  hover:border-2  dark:border-white dark:text-white  md:py-4 md:text-lg md:px-10">
                             View Projects
                         </a>
                     </div>

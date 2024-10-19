@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className={`fixed top-0 left-0 right-0 z-10  px-4 py-2 flex justify-between items-center bg-white dark:bg-gray-800 border-b-2 dark:border-gray-600`}>
             <a className="text-2xl font-bold text-black dark:text-white" href="#">
-                Pandiwa Web
+                Pandiwa<span className='text-orange-700'>Web.</span>
             </a>
 
 
@@ -34,10 +34,10 @@ const Navbar: React.FC = () => {
                 <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
                     <nav>
                         <ul className="md:flex items-center justify-between text-base text-gray-700 dark:text-white pt-4 md:pt-0">
-                            <li><a className="md:p-4 py-3 px-0 block" href="#">AboutUs</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block" href="#">Treatments</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact Us</a></li>
+                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Home</a></li>
+                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">About</a></li>
+                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Service</a></li>
+                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Experience</a></li>
                         </ul>
                     </nav>
                 </div>

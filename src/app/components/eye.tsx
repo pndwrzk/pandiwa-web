@@ -54,6 +54,7 @@ const Eye: React.FC<EyeProps> = ({ pupilId }) => {
         <div
             className="flex flex-col items-center"
             ref={eyeRef}
+            id={pupilId}
         >
             <div className="w-14 h-16 md:w-10 md:h-12 rounded-full bg-gradient-to-b from-gray-200 to-gray-400 shadow-[4px_4px_8px_rgba(0,0,0,0.3),-4px_-4px_8px_rgba(255,255,255,0.6)] flex items-center justify-center border-[2px] border-gray-300">
                 <div

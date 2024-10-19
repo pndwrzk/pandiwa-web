@@ -78,6 +78,15 @@ body {
 }
 
 
+.dark-mode {
+  --icon-color: #ffffff; /* Color for dark mode */
+}
+
+.my-icon .icon-path {
+  fill: var(--icon-color);
+}
+
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
