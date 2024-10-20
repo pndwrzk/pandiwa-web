@@ -1,3 +1,5 @@
+//react/no-unescaped-entities
+
 "use client"
 import { useEffect, useState } from 'react';
 
@@ -45,7 +47,7 @@ const Navbar: React.FC = () => {
 
 
             <div className="flex">
-                <button id="theme-toggle" type="button" onClick={toggleTheme} className="py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black hover:bg-gray-100 dark:text-gray-300 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700">
+                <button id="theme-toggle" type="button" onClick={toggleTheme} className="py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black  dark:text-gray-300 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700">
                     {isDarkMode ? (
                         <svg id="theme-toggle-dark-icon" className="w-5 h-6" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
