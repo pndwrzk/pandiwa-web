@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className={`fixed top-0 left-0 right-0 z-10  px-4 py-2 flex justify-between items-center bg-white dark:bg-gray-800 border-b-2 dark:border-gray-600`}>
-            <a className="text-2xl font-bold text-black dark:text-white" href="#">
-                Pandiwa<span className='text-orange-700'>Web.</span>
+            <a className="text-2xl font-bold text-gray-800 dark:text-white" href="#">
+                Pandiwa<span className='text-orange-700 dark:text-orange-600' >Web.</span>
             </a>
 
 

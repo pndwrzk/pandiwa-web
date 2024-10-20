@@ -18,7 +18,7 @@ export default function WhatCanIDo() {
                                     viewBox="0 0 16 16"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-8 h-8 text-gray-800 dark:text-white" // Tailwind classes for size and color
+                                    className="w-8 h-8 text-gray-800 dark:text-gray-300" // Tailwind classes for size and color
                                 >
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -38,7 +38,7 @@ export default function WhatCanIDo() {
                                     </g>
                                 </svg>
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-white">Full-Stack Development</p>
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-gray-300">Full-Stack Development</p>
                         </dt>
                         <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-gray-50">
                             Build complete web applications from front-end to back-end.
@@ -54,7 +54,7 @@ export default function WhatCanIDo() {
                                     version="1.1"
                                     xmlns="http://www.w3.org/2000/svg"
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    className="w-12 h-12 text-gray-800 dark:text-white" // Tailwind classes for size and color
+                                    className="w-12 h-12 text-gray-800 dark:text-gray-300" // Tailwind classes for size and color
                                 >
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -67,7 +67,7 @@ export default function WhatCanIDo() {
                                 </svg>
 
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-white">Responsive Design
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-gray-300">Responsive Design
                             </p>
                         </dt>
                         <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-gray-50">
@@ -81,7 +81,7 @@ export default function WhatCanIDo() {
                                 <svg
                                     viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-8 h-8 text-gray-800 dark:text-white" // Tailwind classes for size and color
+                                    className="w-8 h-8 text-gray-800 dark:text-gray-300" // Tailwind classes for size and color
                                 >
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -95,7 +95,7 @@ export default function WhatCanIDo() {
                                 </svg>
 
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-white">API Development
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-gray-300">API Development
                             </p>
                         </dt>
                         <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-gray-50"> Design and implement RESTful APIs to enable smooth communication between different systems and applications.
@@ -108,7 +108,7 @@ export default function WhatCanIDo() {
                                 <svg
                                     viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-8 h-8 text-gray-800 dark:text-white" // Use Tailwind classes for size and color
+                                    className="w-8 h-8 text-gray-800 dark:text-gray-300" // Use Tailwind classes for size and color
                                 >
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -124,7 +124,7 @@ export default function WhatCanIDo() {
 
 
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-white">
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-800 dark:text-gray-300">
                                 Deployment Practices
                             </p>
                         </dt>
