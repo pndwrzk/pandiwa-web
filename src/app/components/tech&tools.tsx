@@ -2,9 +2,9 @@ import { useState, useRef } from "react";
 
 
 const TechAndTools = () => {
-    const [skip] = useState(1);
-    const [atBeginning, setAtBeginning] = useState(false);
-    const [atEnd, setAtEnd] = useState(false);
+    const [skip] = useState<number>(1);
+    const [atBeginning, setAtBeginning] = useState<boolean>(false);
+    const [atEnd, setAtEnd] = useState<boolean>(false);
     const sliderRef = useRef<HTMLUListElement>(null);
 
     const next = () => {
@@ -24,7 +24,7 @@ const TechAndTools = () => {
         }
     };
 
-    const disableNextAndPreviousButtons = (e: any) => {
+    const disableNextAndPreviousButtons = (e:  React.FocusEvent<HTMLLIElement>) => {
         if (sliderRef.current) {
             const slideEls = sliderRef.current.children;
             const target = e.target;

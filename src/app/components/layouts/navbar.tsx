@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 const Navbar: React.FC = () => {
     const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  
 
     useEffect(() => {
         const theme = localStorage.getItem('color-theme');
@@ -19,9 +19,7 @@ const Navbar: React.FC = () => {
         localStorage.setItem('color-theme', newTheme);
     };
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
+  
 
     return (
         <nav className={`fixed top-0 left-0 right-0 z-10  px-4 py-2 flex justify-between items-center bg-white dark:bg-gray-800 border-b-2 dark:border-gray-600`}>
