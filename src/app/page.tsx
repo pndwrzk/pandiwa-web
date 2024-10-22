@@ -4,7 +4,7 @@ import Banner from "./components/banner";
 import WhatCanIDo from "./components/whatCanIDo";
 import TechAndTools from "./components/tech&tools";
 import WorkExperience from "./components/workExperience";
-import Portofolio from "./components/portofolio";
+// import Portofolio from "./components/portofolio";
 import Footer from "./components/layouts/footer";
 import { useIsVisible } from "./hooks/useIsVisible";
 import { useRef } from "react";
