@@ -24,6 +24,8 @@ export default function Home() {
     const ref4 = useRef<HTMLDivElement | null>(null);
     const isVisible4 = useIsVisible(ref4);
 
+    
+
 
     return (
         <div className="pt-[60px]">
@@ -53,7 +55,7 @@ export default function Home() {
             </div>
 
             <div ref={ref4} className={`transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
-            <div
+            {/* <div
                 // className="py-[60px] relative"
                 // style={{
                 //   backgroundImage: `url('https://images.unsplash.com/photo-1586775490184-b79f0621891f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
@@ -64,7 +66,7 @@ export default function Home() {
                 className="py-[60px] bg-gray-100 dark:bg-gray-800/50"
             >
                 <Portofolio />
-            </div>
+            </div> */}
 
             </div>
             {/* Bagian dengan efek Parallax */}

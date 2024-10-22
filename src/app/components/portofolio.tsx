@@ -7,7 +7,7 @@ export default function Portofolio() {
                 <p className=" text-lg text-gray-700 dark:text-gray-50">Here is a few of the awesome Services we provide.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 py-4 ">
-                <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg ">
+                {/* <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg ">
                     <img
                         src="https://scontent.fcgk27-2.fna.fbcdn.net/v/t39.30808-6/363008603_856801772513033_3042229180209743386_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFfIeLtBYIocQHIGDoJlnQ-Z9URu7xLbcpn1RG7vEttygMFxPMMM6gmExOQZgSYRzvp-Vf-PZEKAUxCk4YNFVGB&_nc_ohc=MG7YYOQQ0R0Q7kNvgES6ji5&_nc_zt=23&_nc_ht=scontent.fcgk27-2.fna&_nc_gid=A554Mk2A9T5qDv4xEhF9O24&oh=00_AYDeIclCHEsv1azAKlP4GYTO4S_CVITl22j-lZjU1n1LNA&oe=6719B1EE"
                         alt="Laptop"
@@ -15,22 +15,21 @@ export default function Portofolio() {
                     />
                     <div className="p-4">
                         <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
-                            About Macbook
+                            Eraspace
 
                         </h1>
                         <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-                            debitis?
+                        Eraspace is part of the Erajaya Group, the largest and leading retail company in Indonesia, focusing on lifestyle and smart technology products.
                         </p>
                         <div className="mt-4">
                             <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-[10px] font-semibold text-gray-900 dark:text-gray-300">
-                                #Macbook
+                                Next Js
                             </span>
                             <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-[10px] font-semibold text-gray-900 dark:text-gray-300">
-                                #Apple
+                                Golang
                             </span>
                             <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-[10px] font-semibold text-gray-900 dark:text-gray-300">
-                                #Laptop
+                                Laravel
                             </span>
                         </div>
                         <button
@@ -49,12 +48,11 @@ export default function Portofolio() {
                     />
                     <div className="p-4">
                         <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
-                            About Macbook
+                            iBox
 
                         </h1>
                         <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-                            debitis?
+                        iBox is a premium Apple reseller in Indonesia, operated by Erajaya Group. It specializes in selling Apple products such as iPhones, iPads, MacBooks, Apple Watches, and accessories
                         </p>
                         <div className="mt-4">
                             <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-[10px] font-semibold text-gray-900 dark:text-gray-300">
@@ -116,12 +114,11 @@ export default function Portofolio() {
                     />
                     <div className="p-4">
                         <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
-                            About Macbook
+                            JDsport
 
                         </h1>
                         <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-                            debitis?
+                        JD Sports is also part of the Erajaya Group. Through this partnership, Erajaya helps JD Sports expand its presence in the Indonesian market, both through physical stores and an online platform. This collaboration allows JD Sports to meet the growing demand for athleisure and streetwear products, combining fashion with sports functionality
                         </p>
                         <div className="mt-4">
                             <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-[10px] font-semibold text-gray-900 dark:text-gray-300">
@@ -175,9 +172,9 @@ export default function Portofolio() {
                             Visit
                         </button>
                     </div>
-                </div> 
+                </div>  */}
 
-                
+{/*                 
                 <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg ">
                     <img
                         src="https://logowik.com/content/uploads/images/allo-fresh-new7766.jpg"
@@ -211,7 +208,7 @@ export default function Portofolio() {
                             Visit
                         </button>
                     </div>
-                </div>
+                </div> */}
 
                 
 

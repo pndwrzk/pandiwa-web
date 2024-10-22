@@ -22,7 +22,7 @@ export default function Banner() {
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start mb-[5px] md:mb-0">
                     <div className="rounded-md shadow">
                         <a href="#"
-                            className="w-full flex items-center justify-center  shadow px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-700 dark:bg-orange-600  hover:bg-orange-600  dark:hover:bg-orange-700 hover:border-orange-700 md:py-4 md:text-lg md:px-10">
+                            className="w-full flex items-center justify-center  shadow px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-700 dark:bg-orange-600  hover:bg-orange-600  dark:hover:bg-orange-500 hover:border-orange-600 md:py-4 md:text-lg md:px-10">
                             Contact Me
                         </a>
                     </div>
@@ -53,7 +53,9 @@ export default function Banner() {
                             src="images/photo2.png"
                             alt=""
                         />
-
+                        <div className=" absolute    bg-none bottom-0 right-0 mr-7 mb-[2px] font-light text-[12px] text-gray-50 text-transparent">
+                            picture source: <a target="_blank" className="hover:underline" href="https://www.freepik.com/free-psd/3d-rendering-avatar_70822507.htm#fromView=search&page=1&position=1&uuid=c782ae88-0136-4e4d-bbe3-925c5cad6708" >www.freepik.com</a>
+                        </div>
                     </div>
                 </div>
             </div>

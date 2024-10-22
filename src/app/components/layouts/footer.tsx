@@ -6,36 +6,32 @@ export default function Footer(){
   <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
     <div className="sm:col-span-2">
       <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
-        <svg className="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="white">
+        {/* <svg className="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="white">
           <rect x="3" y="1" width="7" height="12"></rect>
           <rect x="3" y="17" width="7" height="6"></rect>
           <rect x="14" y="1" width="7" height="6"></rect>
           <rect x="14" y="11" width="7" height="12"></rect>
-        </svg>
-        <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">Company</span>
+        </svg> */}
+        <span className=" text-xl font-bold tracking-wide text-white uppercase">PandiwaWeb.</span>
       </a>
-      <div className="mt-6 lg:max-w-sm">
+      <div className="mt-4 lg:max-w-sm">
         <p className="text-sm text-white">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-        </p>
-        <p className="mt-4 text-sm text-white">
-          Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        Thank you so much for taking the time to visit my website! If you have any questions or need further information, please feel free to reach out.
         </p>
       </div>
     </div>
-    <div className="space-y-2 text-sm">
+    <div className="space-y-1 text-sm">
       <p className="text-base font-bold tracking-wide text-white">Links</p>
+      
       <div className="flex">
-        <p className="mr-1 text-white">Phone:</p>
-        <p className="text-white">dsdf</p>
+      <p className="mr-1 text-white">About</p>
+  
       </div>
       <div className="flex">
-      <p className="mr-1 text-white">Phone:</p>
-      <p className="text-white">dsdf</p>
+        <p className="mr-1 text-white">Service</p>
       </div>
       <div className="flex">
-        <p className="mr-1 text-white">Phone:</p>
-        <p className="text-white">dsdf</p>
+        <p className="mr-1 text-white">Experience</p>
       </div>
     </div>
     <div>
@@ -65,23 +61,17 @@ export default function Footer(){
         </a>
       </div>
       <p className="mt-4 text-sm text-white">
-        Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken spare ribs salami.
+      I’m active on various platforms, so check out my profiles to stay connected.
       </p>
     </div>
   </div>
-  <div className="flex flex-col-reverse justify-between pt-5  border-t lg:flex-row">
+  <div className="flex flex-col-reverse justify-between pt-5  border-t border-white lg:flex-row">
     <p className="text-sm text-white">
-      © Copyright 2020 Lorem Inc. All rights reserved.
+      © Copyright 2024 PandiwaWeb. All rights reserved.
     </p>
     <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
       <li>
-        <a href="/" className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
-      </li>
-      <li>
-        <a href="/" className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
-      </li>
-      <li>
-        <a href="/" className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
+        <a href="/" className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">Made with ❤️ by Next.Js and Tailwind</a>
       </li>
     </ul>
   </div>

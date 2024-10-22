@@ -7,7 +7,7 @@ export default function WhatCanIDo() {
             <div>
                 <div className="flex flex-col text-center">
                     <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-800 dark:text-white ">What Can I Do</h2>
-                    <p className="mb-12 text-lg text-gray-500 dark:text-gray-50">Here is a few of the awesome Services we provide.</p>
+                    <p className="mb-12 text-lg text-gray-500 dark:text-gray-50">Here are my skills and interests in development systems</p>
                 </div>
                 <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                     <div className="relative">
