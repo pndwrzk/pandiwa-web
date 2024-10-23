@@ -53,7 +53,7 @@ export default function Banner() {
                             src="images/photo2.png"
                             alt=""
                         />
-                        <div className=" absolute    bg-none bottom-0 right-0 mr-7 mb-[2px] font-light text-[12px] text-gray-50 ">
+                        <div className=" absolute    bg-none bottom-0 right-0 mr-7 mb-[2px] font-light text-[9px] md:text-[12px] text-gray-50 ">
                             picture source: <a target="_blank" className="hover:underline" href="https://www.freepik.com/free-psd/3d-rendering-avatar_70822507.htm#fromView=search&page=1&position=1&uuid=c782ae88-0136-4e4d-bbe3-925c5cad6708" >www.freepik.com</a>
                         </div>
                     </div>

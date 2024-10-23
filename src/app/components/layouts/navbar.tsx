@@ -2,6 +2,7 @@
 
 "use client"
 import { useEffect, useState } from 'react';
+import {handleScroll} from '@/app/utils/scrollMenu'
 
 const Navbar: React.FC = () => {
     const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
@@ -21,6 +22,8 @@ const Navbar: React.FC = () => {
         localStorage.setItem('color-theme', newTheme);
     };
 
+
+    
   
 
     return (
@@ -34,10 +37,10 @@ const Navbar: React.FC = () => {
                 <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
                     <nav>
                         <ul className="md:flex items-center justify-between text-base text-gray-700 dark:text-white pt-4 md:pt-0">
-                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Home</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">About</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Service</a></li>
-                            <li><a className="md:p-4 py-3 px-0 block hover:font-bold" href="#">Experience</a></li>
+                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('about-section')} >About</a></li>
+                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('service-section')}>Service</a></li>
+                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('work-section')} >Experience</a></li>
+                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('portofolio-section')} >Portofolio</a></li>
                         </ul>
                     </nav>
                 </div>

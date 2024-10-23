@@ -29,18 +29,18 @@ export default function Home() {
 
     return (
         <div className="pt-[60px]">
-            <div className="py-[60px] bg-gray-100 dark:bg-gray-800/50">
+            <div className="py-[60px] bg-gray-100 dark:bg-gray-800/50" id="about-section">
                 <Banner />
             </div>
 
-            <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+            <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`} id="service-section">
                 <div className="py-[60px]">
                     <WhatCanIDo />
                 </div>
 
             </div>
 
-            <div ref={ref2} className={`transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+            <div ref={ref2} className={`transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`} id="tech-section">
                 <div className="py-[60px] bg-gray-800">
                     <TechAndTools />
                 </div>
@@ -48,13 +48,13 @@ export default function Home() {
 
 
 
-            <div ref={ref3} className={`transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
+            <div ref={ref3} className={`transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`} id="work-section">
             <div className="py-[60px]">
                 <WorkExperience />
             </div>
             </div>
 
-            <div ref={ref4} className={`transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
+            <div ref={ref4} className={`transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`} id="portofolio-section">
             {/* <div
                 // className="py-[60px] relative"
                 // style={{
@@ -68,12 +68,6 @@ export default function Home() {
                 <Portofolio />
             </div> */}
 
-            </div>
-            {/* Bagian dengan efek Parallax */}
-           
-
-            <div className="pt-[60px] pb-[120px] md:py-[40px] bg-gray-800">
-                <Footer />
             </div>
         </div>
     );
