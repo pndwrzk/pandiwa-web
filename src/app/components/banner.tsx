@@ -29,7 +29,7 @@ export default function Banner() {
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                         <a href="#"
                             className="w-full flex items-center hover:font-bold justify-center shadow px-8 py-3 border border-gray-800 text-base font-medium rounded-md text-gray-800  hover:outline  dark:border-white dark:text-gray-300  md:py-4 md:text-lg md:px-10">
-                            View Projects
+                            Download CV
                         </a>
                     </div>
                 </div>

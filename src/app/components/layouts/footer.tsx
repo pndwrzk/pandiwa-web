@@ -41,7 +41,7 @@ export default function Footer() {
                 <svg
                   viewBox="0 0 30 30"
                   fill="currentColor"
-                  className="h-8 text-gray-100"
+                  className="h-7 text-gray-100"
                 >
                   <circle cx="15" cy="15" r="4"></circle>
                   <path
@@ -54,7 +54,7 @@ export default function Footer() {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 text-gray-100"
+                  className="h-9 text-gray-100"
                 >
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -69,7 +69,7 @@ export default function Footer() {
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
-                  className="h-8 text-gray-100"
+                  className="h-7 text-gray-100"
                 >
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
