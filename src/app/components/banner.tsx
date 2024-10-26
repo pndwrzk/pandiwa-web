@@ -21,13 +21,13 @@ export default function Banner() {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start mb-[5px] md:mb-0">
                     <div className="rounded-md shadow">
-                        <a href="#"
+                        <a href="mailto:pandiwarizki.rp@gmail@gmail.com" target="_blank"
                             className="w-full flex items-center justify-center  shadow px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-700 dark:bg-orange-600  hover:bg-orange-600  dark:hover:bg-orange-500 hover:border-orange-600 md:py-4 md:text-lg md:px-10">
                             Contact Me
                         </a>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
-                        <a href="#"
+                        <a href="https://drive.google.com/file/d/1pqzQGOBkRooNx9P3i68bDrkpK9Pk8kLz/view?usp=sharing" target="_blank"
                             className="w-full flex items-center hover:font-bold justify-center shadow px-8 py-3 border border-gray-800 text-base font-medium rounded-md text-gray-800  hover:outline  dark:border-white dark:text-gray-300  md:py-4 md:text-lg md:px-10">
                             Download CV
                         </a>

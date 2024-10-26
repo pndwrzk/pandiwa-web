@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
                             <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('about-section')} >About</a></li>
                             <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('service-section')}>Service</a></li>
                             <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('work-section')} >Experience</a></li>
-                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('portofolio-section')} >Portofolio</a></li>
+                            <li className='cursor-pointer'><a className="md:p-4 py-3 px-0 block hover:font-bold" onClick={() => handleScroll('portofolio-section')} >Projects</a></li>
                         </ul>
                     </nav>
                 </div>

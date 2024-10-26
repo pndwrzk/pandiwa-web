@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="space-y-1 text-sm">
-            <p className="text-base font-bold tracking-wide text-gray-100">Links</p>
+            <p className="text-base font-bold tracking-wide text-gray-100">Quick Links</p>
 
             <div className="flex">
               <a className="mr-1 text-gray-100 cursor-pointer hover:underline" onClick={() => handleScroll('about-section')}>About</a>
@@ -30,7 +30,7 @@ export default function Footer() {
               <a className="mr-1 text-gray-100 cursor-pointer hover:underline" onClick={() => handleScroll('work-section')}>Experience</a>
             </div>
             <div className="flex">
-              <a className="mr-1 text-gray-100 cursor-pointer hover:underline" onClick={() => handleScroll('portofolio-section')}>Portofolio</a>
+              <a className="mr-1 text-gray-100 cursor-pointer hover:underline" onClick={() => handleScroll('portofolio-section')}>Projects</a>
             </div>
 
           </div>
@@ -99,8 +99,8 @@ export default function Footer() {
           <p className="text-sm text-gray-100">
             © Copyright 2024 PandiwaWeb. All rights reserved.
           </p>
-          <p className="text-sm text-gray-100 mb-1 md:mb-0">
-            Made using Next.js and Tailwind.
+          <p className="text-sm text-gray-100 mb-2 md:mb-0">
+          Built with Next.js and Tailwind CSS
           </p>
 
         </div>

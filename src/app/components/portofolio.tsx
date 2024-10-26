@@ -4,7 +4,7 @@ export default function Portofolio() {
         <div className="md:px-[150px] px-5 flex flex-col  ">
             <div className="flex flex-col ">
                 <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-800 dark:text-white  ">Project Contribution</h2>
-                <p className=" text-lg text-gray-700 dark:text-gray-50">Here is a few of the awesome Services we provide.</p>
+                <p className=" text-lg text-gray-700 dark:text-gray-50">My contributions to various projects</p>
             </div>
             <div className="pt-10 flex flex-col gap-7">
 
